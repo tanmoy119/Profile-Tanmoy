@@ -3,6 +3,7 @@ import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 import {animated} from '@react-spring/web'
 import styled from 'styled-components'
 import Nav from './Nav';
+import ProfileImg from './ProfileImg';
 
 const ProfilePP = () => {
   return (
@@ -36,12 +37,13 @@ const ProfilePP = () => {
         </div>
       </ParallaxLayer>
     {/* --------------------------------2nd page------------------------------------ */}
-      <ParallaxLayer factor={0} offset={1} speed={0.20}>
+      <ParallaxLayer  factor={0} offset={1} speed={0}>
         <div className="about">
             <h1>ABOUT</h1>
-            <div className="about-content">
+            <ProfileImg />
+            {/* <div className="about-content">
               <img src="./img/profile.jpg" className='profile-img' alt="" />
-            </div>
+            </div> */}
             
 
         </div>
@@ -65,6 +67,7 @@ background-blend-mode: darken;
 background-size: cover;
 box-shadow: 10px  5px 50px #040514;
 border-radius: 45% 0 40% 10%;
+background-position: 69%;
 
 
 }
@@ -137,7 +140,8 @@ border-radius: 45% 0 40% 10%;
 
 
 .about{
-    height: 80vh;
+    //height: 80vh;
+    padding: 0 0 60px 0;
     background-color: #040717;
     border-radius: -50px 0 0 0 ;
     display: flex;

@@ -23,10 +23,10 @@ const Nav = () => {
         <img onMouseEnter={()=>console.log("hi")} className='logo' src={`./img/${(cburger)?'logow':'logow'}.png`} alt="hellow" />
 
         {
-            (cburger===true)?<MenuIcon className='burger'  onClick={()=>setcburger(false)}/>:<ClearIcon className='burger' onClick={()=>setcburger(true)}/>
+            (cburger===true)?<ClearIcon className='burger' onClick={()=>setcburger(false)}/>:<MenuIcon className='burger'  onClick={()=>setcburger(true)}/>
         }
         
-        <nav className='nav' style={{left:(cburger)?'-110%':'0%',top:(cburger)?'-110%':'0%'}}>
+        <nav className='nav' style={{left:(cburger)?'0%':'0%',top:(cburger)?'0%':'-110%'}}>
            
 
             <div className="section">
@@ -129,6 +129,7 @@ const Container = styled.div`
         
 
         .section{
+          
             display: flex;
             align-items: center;
             justify-content: center;
@@ -137,8 +138,14 @@ const Container = styled.div`
             
             
             
-            .nav-icons,.link{
+            .nav-icons
+            {
                 color: #181818;
+            }
+            
+            .link{
+                //color: #181818;
+                color: #d0db2b;
             }
 
             .link:hover{
