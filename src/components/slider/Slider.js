@@ -4,14 +4,8 @@ import styled, { css, keyframes } from "styled-components";
 const Slider = () => {
 
     const row1 = [
-        // "https://www.plastyk.com.au/assets/Uploads/logo-javascript.png",
-        // "https://www.plastyk.com.au/assets/Uploads/logo-javascript.png",
-        // "https://www.plastyk.com.au/assets/Uploads/logo-javascript.png",
-        // "https://www.plastyk.com.au/assets/Uploads/logo-javascript.png",
-        // "https://www.plastyk.com.au/assets/Uploads/logo-javascript.png",
-        // "https://www.plastyk.com.au/assets/Uploads/logo-javascript.png"
 
-        "./img/NodeLogo.png",
+        "./img/NodeLogo.png", 
         "./img/ReactLogoNew.png",
         "./img/MongoDBLogo.png",
         "./img/Html.png",
@@ -21,15 +15,6 @@ const Slider = () => {
         "./img/Npm.png",
         "./img/Git.png",
         
-    ]
-
-    const row2 = [
-        // "https://www.plastyk.com.au/assets/Uploads/logo-javascript.png",
-        // "https://www.plastyk.com.au/assets/Uploads/logo-javascript.png",
-        // "https://www.plastyk.com.au/assets/Uploads/logo-javascript.png",
-        // "https://www.plastyk.com.au/assets/Uploads/logo-javascript.png",
-        // "https://www.plastyk.com.au/assets/Uploads/logo-javascript.png",
-        // "https://www.plastyk.com.au/assets/Uploads/logo-javascript.png"
     ]
   return (
     <Container>
