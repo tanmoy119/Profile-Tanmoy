@@ -18,7 +18,9 @@ const ProfileImg = () => {
 
     <div className="details">
       <h2 className='D-heading'>PERSONAL DETAILS</h2>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias quaerat voluptatibus vero. Sed, repellat exercitationem? Eligendi iusto eos fuga voluptas.</p>
+      <p>I am Tanmoy Barman. I am from falakata. I completed my 10+2 from local public high school and then I completed my graduation from Techno India University in CSE, which is located in Kolkata.
+      I am a profesional web developer. Besically I build my proects on MERN Stack, but i alwasy ready to learn and ready to work in new technologys.
+      </p>
 
       <div className="about-cart">
         <div className="left-sub-cart">
@@ -92,7 +94,7 @@ img{
         height: auto;
         width: 350px;
         border-radius: 20px;
-        box-shadow: 0px 0px 20px gray;
+        /* box-shadow: 0px 0px 20px gray; */
         transition: 0.6s ease-in-out;
         margin:0 60px;
 
@@ -150,7 +152,7 @@ img{
 }
 
 .about-cart{
-  color: #d0db2b;
+  color: #98a300;
   display: flex;
   .left-sub-cart{
     margin-right: 3px;
@@ -163,7 +165,7 @@ img{
         margin-left: 8px ;
       }
       .icon{
-       // color: #fbff22;
+        color: #9fa725;
       }
     }
   }

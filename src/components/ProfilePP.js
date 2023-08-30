@@ -4,6 +4,7 @@ import {animated} from '@react-spring/web'
 import styled from 'styled-components'
 import Nav from './Nav';
 import ProfileImg from './ProfileImg';
+import Slider from './slider/Slider';
 
 const ProfilePP = () => {
   return (
@@ -34,10 +35,11 @@ const ProfilePP = () => {
 
             <span>Professional Web Devloper</span>
 
+        <Slider/>
         </div>
       </ParallaxLayer>
     {/* --------------------------------2nd page------------------------------------ */}
-      <ParallaxLayer  factor={0} offset={1} speed={0}>
+      <ParallaxLayer  factor={0} offset={1} speed={0.25}>
         <div className="about">
             <h1>ABOUT</h1>
             <ProfileImg />
@@ -47,9 +49,15 @@ const ProfilePP = () => {
             
 
         </div>
+
+        <div className="slider">
+        
+        </div>
+            
       </ParallaxLayer>
 
     </Parallax>
+    {/* <Slider/> */}
 
     </Container>
   )
@@ -65,7 +73,7 @@ height: 100vh;
 background: rgba(0,0,0,0.4) url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701772540-optimized.jpg);
 background-blend-mode: darken;
 background-size: cover;
-box-shadow: 10px  5px 50px #040514;
+box-shadow: 10px  5px 20px 0px #040514;
 border-radius: 45% 0 40% 10%;
 background-position: 69%;
 
@@ -159,14 +167,14 @@ background-position: 69%;
       img{
         width: 200px;
         border-radius: 20px;
-        box-shadow: 10px 20px 20px gray;
+        /* box-shadow: 10px 20px 20px gray; */
         transition: 0.3s ease-in-out;
 
       }
 
       .profile-img:hover{
         transform: translate(10px 10px);
-        box-shadow: 10px 20px 20px;
+        /* box-shadow: 10px 20px 20px; */
       }
       
     }
@@ -175,6 +183,11 @@ background-position: 69%;
 
 .nav{
 
+}
+
+.slider{
+  /* height: 200px; */
+  /* background-color: yellow; */
 }
 
 

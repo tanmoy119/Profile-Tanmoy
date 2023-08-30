@@ -145,7 +145,7 @@ const Container = styled.div`
             
             .link{
                 //color: #181818;
-                color: #d0db2b;
+                color: #a6b105;
             }
 
             .link:hover{

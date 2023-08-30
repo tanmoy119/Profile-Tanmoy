@@ -5,6 +5,8 @@ import {BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from './components/Home';
 import ProfileImg from './components/ProfileImg';
 import About from './components/About';
+import Slider from './components/slider/Slider';
+import Product from './components/Product';
 
 
 function App() {
@@ -14,8 +16,9 @@ function App() {
       <Routes>
  
         <Route path='/' element={<Home />} />
-        <Route path='/PRODUCT' element={<ProfileImg/>} />
+        <Route path='/PRODUCT' element={<Product/>} />
         <Route path='/ABOUT' element={<About/>} />
+        <Route path='/slider' element={<Slider/>} />
 
       </Routes>
     </Router>

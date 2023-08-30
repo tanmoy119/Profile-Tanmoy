@@ -2,12 +2,14 @@ import React from 'react'
 import styled from 'styled-components'
 //import { Background, Parallax } from 'react-parallax';
 import ProfilePP from './ProfilePP';
+import Slider from './slider/Slider';
 
 const Home = () => {
   return (
     <Container>
 
      <ProfilePP/>
+     
     </Container>
   )
 }
