@@ -2,7 +2,7 @@ import React from 'react'
 import Nav from './Nav'
 import styled from 'styled-components'
 
-const About = () => {
+const ContactUs = () => {
   return (
     <>
     <Nav/>
@@ -14,7 +14,8 @@ const About = () => {
   )
 }
 
-export default About
+export default ContactUs
+
 
 const Main = styled.div`
     display: flex;

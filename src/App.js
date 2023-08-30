@@ -7,6 +7,7 @@ import ProfileImg from './components/ProfileImg';
 import About from './components/About';
 import Slider from './components/slider/Slider';
 import Product from './components/Product';
+import ContactUs from './components/ContactUs';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path='/PRODUCT' element={<Product/>} />
         <Route path='/ABOUT' element={<About/>} />
         <Route path='/slider' element={<Slider/>} />
+        <Route path='/contact' element={<ContactUs/>} />
 
       </Routes>
     </Router>
